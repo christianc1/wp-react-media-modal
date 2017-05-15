@@ -1,0 +1,10 @@
+.media-toolbar-primary.search-form {
+	position: relative;
+
+	& .dashicons-search {
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		margin-top: 14px;
+	}
+}
