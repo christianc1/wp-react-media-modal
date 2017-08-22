@@ -15,7 +15,7 @@ module.exports =  class Media_Modal_Content_Item {
 		if ( ! item.id ) return void 0;
 		this.id = item.id;
 		this.title = item.meta.name;
-		this.thumbnail = item.thumbs;
+		this.thumbnail = item.images.image;
 		this.sidebarMappings = [
 			{
 				id: 'id',
